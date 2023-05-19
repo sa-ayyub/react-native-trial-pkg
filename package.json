@@ -1,5 +1,5 @@
 {
-  "name": "react-native-trial-pkg",
+  "name": "@saayub/react-native-trial-pkg",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -40,13 +40,16 @@
     "ios",
     "android"
   ],
-  "repository": "https://www.instagram.com/hidoepsahaja",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa-ayyub/react-native-trial-pkg.git"
+  },
   "author": "Shalahudin Ayyub <shalahudin.ayyub@mekari.com> (https://www.instagram.com/hidoepsahaja/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://www.instagram.com/hidoepsahaja/issues"
+    "url": "https://github.com/sa-ayyub/react-native-trial-pkg/issues"
   },
-  "homepage": "https://www.instagram.com/hidoepsahaja#readme",
+  "homepage": "https://github.com/sa-ayyub",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -155,5 +158,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
